@@ -4,7 +4,7 @@ const config: ThemeConfig = { initialColorMode: "dark" };
 
 const theme = extendTheme({
   config,
-  color: {
+  colors: {
     gray: {
       50: "#f9f9f9",
       100: "#ededed",
