@@ -19,6 +19,7 @@ export default function SortSelector({ onSelectOrder, sortOrder }: Props) {
   const currentSortOrder = sortOrders.find(
     (order) => order.value === sortOrder
   );
+
   return (
     <>
       <Menu>
